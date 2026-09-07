@@ -132,7 +132,7 @@ def handle_client_query(message: bytes):
     update_cache(domain)
     return response
 
-IP_VM = "192.168.100.131"
+IP_VM = ""
 PORT = 8000
 BUFF_SIZE = 4096
 
